@@ -39,7 +39,7 @@ it('should check if brackets sequence is not correct 7', () => {
 });
 
 it('should check if brackets sequence is correct 8', () => {
-  assert.equal(check('||', config4), true);
+  assert.equal(check('|||', config4), false);
 });
 
 it('should check if brackets sequence is correct 9', () => {
